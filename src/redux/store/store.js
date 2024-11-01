@@ -1,5 +1,5 @@
-import {createStore} from "react-redux"
-import { cartReducers } from "../reducers/cartReducer";
+import {legacy_createStore} from "redux"
+import cartReducers from "../reducers/cartReducer"
 
 
-export const store = createStore(cartReducers)
+export const store = legacy_createStore(cartReducers)
